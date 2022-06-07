@@ -1,0 +1,72 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --search-height: 40px;
+}
+
+#jumbotron {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(100, 100, 250),
+    rgb(25, 25, 150)
+  );
+  padding: 10px;
+  color: white;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.search-container,
+.weather-container {
+  margin: 20px;
+}
+
+.todays-weather {
+  border: 1px solid black;
+  padding: 7px;
+}
+
+.todays-weather h3 {
+  display: inline;
+}
+
+#uv-index {
+  display: inline;
+}
+
+#uv-color {
+  display: inline;
+  padding: 1px 12px 1px 12px;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  height: var(--search-height);
+  width: 100%;
+}
+
+button {
+  height: var(--search-height);
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(100, 100, 225);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
