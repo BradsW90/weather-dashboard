@@ -22,5 +22,5 @@
 
 ## The Application...
 
-![Screenshot Web App](#)
+![Screenshot Web App](./assets/images/web-app-screenshot.jpg)
 ![https://github.com/BradsW90/weather-dashboard.git](https://github.com/BradsW90/weather-dashboard.git)

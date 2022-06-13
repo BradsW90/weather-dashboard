@@ -76,6 +76,7 @@ button {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  line-height: 0.05;
 }
 
 .future-weather h4 {
